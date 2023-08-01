@@ -1,0 +1,33 @@
+﻿Workshop ML
+
+
+Consigna:
+
+
+Iniciaremos realizando un breve EDA del dataset:
+
+
+1. Importar las librerías necesarias para la realización del desafío (Ej: pandas, numpy, matplotlib, etc) y el dataset propuesto para la ejercitación.
+2. Imprimir las 5 primeras filas.
+3. Imprimir las 5 últimas filas.
+4. Imprimir las dimensiones del dataset.
+5. Obtener la totalidad de registros por columnas.
+6. Analizar el tipo de dato de cada columna.
+7. Obtener el tipo de estructura del dataset. Ej: si es o no un DataFrame.
+8. Listar los nombres de las columnas.
+
+
+
+
+Machine Learning - Modelo de Clasificación:
+
+
+9. Separar los features en una variable x y la variable target en y.
+10. Separar los datos en Train (70%) y Test (30%) con un random_state=42.
+11. Crear un objeto de Árbol de Decisión para un modelo de clasificación, con los siguientes parámetros predefinidos.
+12. Nivel de Profundidad = 2.
+13. Semilla para la reproducibilidad = 42.
+14. Entrenar el modelo creado.
+15. Realizar la predicción del modelo en Train y Test.
+16. Calcular la métrica de Accuracy en Train y Test para la comparación posterior de los modelos.
+17. Graficar las variables de importancia del Árbol de Decisión creado (feature_importances_).
